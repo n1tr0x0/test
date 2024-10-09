@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form__inp{
+    width:calc(53% - 20px);
+    height: calc(13% - 20px);
+    position: absolute;
+    left: 41%;
+    transform: translate(-50%);
+    border-radius: 40px 0 0 40px ;
+    border-right: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.form__btn{
+    position: absolute;
+    right: 282px;
+    top: 97.5px;
+    width: calc(12% - 20px);
+    height: calc(13% - 20px);
+    background: steelblue;
+    color: white;
+    border: none;
+    border-radius: 0 40px 40px 0;
+    font-size: 1.5em;
+}
+.form__btn:hover{
+    background: #e4e4e4;
+    color: steelblue;
+}

@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.end__title{
+    position: absolute;
+    bottom: 20px;
+    font-size: 2em;
+    font-weight: 700;
+}
+.end__btn{
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 30px;
+    color: steelblue;
+}
+.end__btn:hover{
+    background: #bbbdc2;
+}
